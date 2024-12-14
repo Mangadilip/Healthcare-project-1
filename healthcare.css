@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; */
-  background-color: rgb(238, 250, 250);
+  background-color:#ffffff;
 }
 
 .navbar {
@@ -131,11 +131,12 @@ body {
   background-position: center;
   background-size: contain;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 768px) {
   .heading {
     margin-top: 0%;
     font-size: small;
-    width: 85vw;
+    width: 85vw ;
   }
   #desktop-img {
     margin-top: 10%;
@@ -144,6 +145,7 @@ body {
   }
   
 }
+
 .service {
   /* border: 1px solid; */
   margin: auto;
@@ -155,7 +157,7 @@ body {
   /* height: 50vh;  */
   border-radius: 2%;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .emergency{
     min-width: 55vw; 
     
@@ -242,6 +244,7 @@ body {
     margin-top: 7%;
     width: 35vw; 
     animation: rightin 1s linear;
+    
    
 }
 @keyframes rightin{
@@ -252,7 +255,7 @@ body {
     transform: translateX(0);
   }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .laptop-img {
     margin-top:15%;
     width: 85vw;
@@ -346,7 +349,7 @@ body {
     box-shadow: 0 0  10px rgba(0,0,0,0.2);
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .head{
     font-size: x-large;
      
@@ -377,7 +380,7 @@ body {
   width: 33%;
   
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .berg{
     margin: auto;
     width: 90vw;
@@ -428,7 +431,7 @@ body {
   /* border: 1px solid; */
   margin-top: -40px;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
 .no1{
   width: 40vw;
   opacity: 0.8;
@@ -471,7 +474,7 @@ body {
    z-index: 98;
   
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .offers{
     width: 85vw;
   }
@@ -586,7 +589,7 @@ body {
 .dropdown2-input:checked ~ .dropdown2-label::after {
   transform: translateY(-50%) rotate(0.5turn);
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .question{
     width: 85vw;
   }
@@ -615,7 +618,7 @@ body {
   height: 20vh;
   
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .address{
     
     height: 50vh;   
@@ -672,7 +675,7 @@ body {
   cursor: pointer;
  
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
 
 .contact{
   width: 85vw;
@@ -707,7 +710,7 @@ color: #ffffff;
 padding: 5vh;
 font-size: small  ;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .info{
     
    min-width:85vw;
